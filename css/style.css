@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: #E0C8D3;
+}
+
+.head{
+    width: auto;
+    height: 75px;
+    background: #E5003E;
+}
+
+.head-links{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.head-logo, .head-button{
+    margin: 18px 50px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.logo{
+    position: absolute;
+    width: auto;
+    height: 95px;
+    left: 250px;
+    top: -2px;
+}
+
+h1{
+    margin: 5px 50px;
+    font-size: 48px;
+    color: #82757B;
+}
+
+.body-word{
+    font-size: 32px;
+    text-decoration: none;
+    color: #82757B;
+
+}
+
+.body-word:hover{
+    text-decoration: underline;
+    color: #E5003E;
+}
+
+li{
+    margin: 24px 10px;
+    list-style-type: none;
+    display:inline-block;
+    text-align:center;
+}
+ /* Карточка 1 */
+.card-1{
+    background-color: #d7d7d7;
+    box-shadow: 10px 10px 15px 0 #0000004f;
+    width: 263px;
+    height: 371px;
+    border-radius: 37px;
+    position: absolute;
+    width: 263px;
+    height: 320px;
+    left: 153px;
+    top: 327px;
+}
+
+.img-card{
+    position: absolute;
+    top: -42px;
+}
+
+.bottom-card{
+    background: #E5003E;
+    border-radius: 0px 0px 37px 37px;
+    position: absolute;
+    width: 263px;
+    height: 175px;
+    top: 157px;
+}
+
+.bottom-card p{
+    font-family: 'Montserrat';
+    color: #D9D9D9;
+    margin: 10px 7px;
+}
+
+.header{
+    font-size: 20px;
+    text-align: center;
+}
+
+.compositions{
+    font-size: 15px;
+}
+
+.gram{
+    font-size: 12px;
+}
+
+.plus{
+    left: 20px;
+    top: 140px;
+}
+
+.plus img{
+    margin: 5px auto 20px;
+    display: block;
+}
+
+.plus, .buy-card{
+    background: #F9DEEA;
+    border-radius: 13px;
+    position: absolute;
+    width: 83px;
+    height: 26px;
+}
+
+.buy-card{
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    color: #E5003E;
+    left: 150px;
+    top: 140px;
+}
+
+
+.sp{
+    position: absolute;
+    top: 5px;
+    left: 30px;
+}
+
+ /* Карточка 2 */
+ .card-2, .card-3{
+    background-color: #d7d7d7;
+    box-shadow: 10px 10px 15px 0 #0000004f;
+    width: 263px;
+    height: 371px;
+    border-radius: 37px;
+    width: 263px;
+    height: 320px;
+    margin: 0px 450px;
+}
